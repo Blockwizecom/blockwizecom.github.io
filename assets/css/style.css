@@ -9,9 +9,9 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
    ========================================================================== */
 html,
 body {
-    background-color: #ffffff;
+    background-color: #fcfcfc;
     font-size: 15px;
-    color: #565656;
+    color: #636262;
     width: 100%;
     padding: 0;
     margin-left: 0;
@@ -76,7 +76,7 @@ a span {
 }
 .btn:focus,
 .btn:active {
-    outline: inherit;
+    outline: #f7b50e;
 }
 *,
 *:before,
@@ -124,7 +124,7 @@ input[type="color"],
     height: 45px;
 }
 .form-control:focus {
-    border-color: #f56363;
+    border-color: #f7b50e;
 }
 h1,
 h2,
@@ -183,28 +183,28 @@ p:last-child {
 .home-wrap h4,
 .home-wrap h5,
 .home-wrap p {
-    color: #ffffff;
+    color: #636262;
     font-family: 'roboto', sans-serif;
 }
 .text {
-    color: #333333;
+    color: #636262;
 }
 .colorstext {
-    color: #f56363;
+    color: #636262;
 }
 .coloricon i {
-    color: #f56363;
+    color: #636262;
 }
 .colorsbg {
-    background: #f56363;
-    color: #ffffff;
+    background: #f7b50e;
+    color: ;
 }
 .colorsbg .separator2 {
     border: 2px solid;
 }
 .colorsbg .separator_wrap::after,
 .colorsbg .separator_wrap::before {
-    background-color: #ffffff;
+    background-color: #f9f9f9;
 }
 .lightbg {
     background-color: #f9f9f9;
@@ -235,7 +235,7 @@ section .subtitle h5 {
 }
 .parallax-section {
     max-width: 100%;
-    color: #ffffff;
+    color: #636262;
 }
 section .title-half h2 {
     font-size: 3rem;
@@ -278,7 +278,7 @@ section:nth-of-type(odd) {
     width: 100%;
     padding-top: 100px;
     padding-bottom: 100px;
-    color: #ffffff;
+    color: #636262;
 }
 .no-padding {
     padding: 0 !important;
@@ -402,7 +402,7 @@ input:-ms-input-placeholder {
     padding-top: 15px;
 }
 .mainmenu .brand-bg{
-	background: #fa5c65;
+	background: #f7b50e;
     padding: 20px 10px 10px;
     height: 70px;
     border-bottom-left-radius: 10px;
@@ -413,7 +413,7 @@ input:-ms-input-placeholder {
 .mainmenu .navbar-nav li a{
 	text-transform:uppercase;
 	font-size:14px;
-	color:#263742;
+	color:#f7b50e;
 }
 
 .mainmenu.menu-bg{
@@ -422,12 +422,12 @@ input:-ms-input-placeholder {
 }
 
 .mainmenu .navbar-nav li a i{
-	color:#fa5c65;
+	color:#565455;
 	font-size:18px;
 	transition:.3s ease-in-out;
 }
 .mainmenu .navbar-nav li a i:hover{
-	color:white;
+	color:#f7b50e;
 }
 
 
@@ -444,7 +444,7 @@ input:-ms-input-placeholder {
 }
 .home-bg .header-details h1 i{
 	font-size:7px;
-	color:#fa5c65;
+	color:#565455;
 }
 .home-bg .header-details p{
 	font-size:20px;
@@ -455,81 +455,19 @@ input:-ms-input-placeholder {
 	padding:10px;
 	width: 150px;
     height: 60px;
-	background:#fa5c65;
+	background:#565455;
 	color:white;
 	font-size:15px;
 	margin-top:30px;
 }
 .home-bg .header-details button:hover{
-	background:#cf0f1a;
-	color:white;
+	background:#f7b50e;
+	color:#fcfcfc;
 }
 .btn-default{
-	border-color:transparent;
+	border-color:#f7b50e;
 }
 
-.promotion {
-	color:#465065;
-}
-.promotion h1{
-	text-transform:uppercase;
-	font-size:26px;
-	margin-bottom:15px;
-	font-family: 'montserratbold';
-	line-height:35px;
-}
-.promotion h1 i{
-	font-size:5px;
-	color:#fa5c65;
-}
-
-.promotion a h4{
-	text-transform:uppercase;
-	font-size:15px;
-	color:#fa5c65;
-}
-.promotion a h4:hover{
-	color:pink;
-}
-.promotion h4 span i{
-	padding-left:5px;
-	
-}
-
-.portfolio{
-	color:#465065;
-	overflow:hidden;
-}
-
-.portfolio img{
-	margin-left: -79px;
-}
-
-.portfolio h1{
-	text-transform:uppercase;
-	font-size:26px;
-	margin-bottom:15px;
-	font-family: 'montserratbold';
-}
-.portfolio h1 i{
-	font-size:5px;
-	color:#fa5c65;
-}
-
-.portfolio a h4{
-	text-transform:uppercase;
-	font-size:14px;
-	color:#fa5c65;
-	font-family: 'montserratregular';
-}
-.portfolio a h4:hover{
-	color:pink;
-}
-.portfolio h5{
-	font-size:16px;
-}
-.portfolio h4 span i{
-	padding-left:5px;
 	
 }
 .portfolio .item{
@@ -548,7 +486,7 @@ input:-ms-input-placeholder {
 
 .team-heading h1 i{
 	font-size:7px;
-	color:#fa5c65;
+	color:#565455;
 }
 .team-heading h5{
 	font-size:15px;
@@ -567,7 +505,7 @@ input:-ms-input-placeholder {
 }
 .team .team-info h5{
 	font-size:14px;
-	color:#fa5c65;
+	color:#565455;
 	margin-bottom:0;
 	font-weight:bold;
 }
@@ -583,7 +521,7 @@ input:-ms-input-placeholder {
 .team-more a h4{
 	text-transform:uppercase;
 	font-size:15px;
-	color:#fa5c65;
+	color:#565455;
 }
 .team-more a h4:hover{
 	color:pink;
@@ -601,7 +539,7 @@ input:-ms-input-placeholder {
 	-moz-transition:.3s ease-in-out;
 }
 .social-network a i:hover{
-	color:red;
+	color:#b9c0c6;
 }
 .copyright p{
 	font-size:13px;
@@ -613,7 +551,7 @@ input:-ms-input-placeholder {
 		width:40px;
 		height:40px;
 		text-align:center;
-		color:#fa5c65;
+		color:#565455;
 		font-size:30px;
 		background:#c8cfd0;
 		position:fixed;
